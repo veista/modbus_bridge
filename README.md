@@ -1,5 +1,5 @@
 # Modbus RTU to TCP Bridge
-A simple Modbus RTU to Modbus TCP Bridge that is done with off-the shelf parts utilizing the ESP-8266
+A simple Modbus RTU Master to Modbus TCP Server Bridge that is done with off-the shelf parts utilizing the ESP-8266
 
 ## Hardware
 ### Specifications
@@ -13,4 +13,4 @@ A simple Modbus RTU to Modbus TCP Bridge that is done with off-the shelf parts u
 ### Configuration
 
 ## Known Limitations
- - Only one TCP Master is supported at the same time. **Unpredicted behaviour may occur if multiple TCP masters make requests at the same time.**
+ - Only one TCP Client/Master is supported at the same time. **Unpredicted behaviour on end application may occur if multiple TCP Clients make requests at the same time.**
