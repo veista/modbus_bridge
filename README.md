@@ -6,10 +6,12 @@ A simple Modbus RTU Master to Modbus TCP Server Bridge that is done with off-the
   - Current Requirements: ~30mA@12V
 ### BOM
  - ESP-8266
- - 
+ - https://www.waveshare.com/rs485-board-3.3v.htm or equivalent
+ - 3V3 DC-DC Regulator
+ - Wire, solder etc.
 ### Schematic
-### Assembly Instructions
-## Software
+![Modbus Bridge_bb](https://user-images.githubusercontent.com/91916713/199119731-2b869dc3-026b-4651-bbf5-00f1b1e5f31f.png)
+The waveshare board has all the passive components and connector incorporated.
 ### Configuration
 
 ## Known Limitations
