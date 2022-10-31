@@ -12,8 +12,15 @@ A simple Modbus RTU Master to Modbus TCP Server Bridge that is done with off-the
 ### Schematic
 ![Modbus Bridge_bb](https://user-images.githubusercontent.com/91916713/199119731-2b869dc3-026b-4651-bbf5-00f1b1e5f31f.png)
 The waveshare board has all the passive components and connector incorporated.
+## Software
+### Used Libraries
+modbus-esp8266 v. 4.1.0 https://github.com/emelianov/modbus-esp8266
 ### Configuration
 Fill the setup config section with your values in the arduino file and you are good to go.
 
 ## Known Limitations
  - Only one TCP Client/Master is supported at the same time. **Unpredicted behaviour on end application may occur if multiple TCP Clients make requests at the same time.**
+
+## Notes
+- A big thanks to Alexander Emelianov for helping with this project.
+- If you like this project leave a star. You can also buy me a coffee https://www.buymeacoffee.com/veista
