@@ -23,4 +23,4 @@ Fill the setup config section with your values in the arduino file and you are g
 
 ## Notes
 - A big thanks to Alexander Emelianov for helping with this project.
-- If you like this project leave a star. You can also buy me a coffee https://www.buymeacoffee.com/veista
+- If you like the project please star this repository and concider donating or becoming a sponsor.
